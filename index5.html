@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <style>
+    /* Global styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    /* Header styles */
+    header {
+      background-color: #000;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    /* Footer styles */
+    footer {
+      background-color: #000;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    /* Main content styles */
+    main {
+      background-color: #b2d1c9;
+      padding: 20px;
+    }
+    
+    /* Home tab styles */
+    .home-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    
+    .profile-picture {
+      width: 250px;
+      height: 300px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+    
+    /* Other tabs styles */
+    .tab-content {
+      margin-top: 20px;
+    }
+    
+    /* Social media icons styles */
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+    }
+    
+    .social-icon {
+      width: 40px;
+      height: 40px;
+      margin: 0 6px;
+    }
+    
+    /* Contact me section styles */
+    .contact-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      max-width: 400px;
+      margin-top: 30px;
+    }
+    
+    .contact-form input[type="text"],
+    .contact-form textarea {
+      margin-bottom: 10px;
+      padding: 5px;
+      font-size: 16px;
+    }
+    
+    .contact-form input[type="submit"] {
+      padding: 10px;
+      background-color: #000;
+      color: #fff;
+      border: #000;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Saksham Narang's Portfolio</h1>
+  </header>
+  
+  <main>
+    <!-- Home tab -->
+    <div class="home-section">
+      <img src="Photograph.jpeg" alt="Profile Picture" class="profile-picture">
+      <h2>Saksham Narang</h2>
+      <h3>About Me</h3>
+      <p>Hello Everyone...!!!</p>
+      <p>I am Saksham Narang. I am a student of UPES and currently I am pursuing Bachelor's of Computer Appliaction with specialisation in Artificial Intelligence. </p>
+      <p>I am keen learner and quite enquisitive. I am currently a part of UPES_CSI as an Editorial and Management & Records Core Committee Member.</p>
+      <h3>Career Objectives</h3>
+      <p>Seeking an active role in the organisation to contribute to its growth and success.</p>
+         <p>Eager to engage in 
+            meaningful projects, collaborate with like-minded individuals, and develop leadership skills while 
+            making a positive impact within the organisation.</p>
+      <h3>Academic Background</h3>
+      <li>Bachelor's of Computer Appliactions - University of Petroleum and Energy Studies (2022-2025)</li>
+      <li>10+2 - Summer Valley School (2008-2022)</li>
+    </div>
+    
+    <!-- Other tabs -->
+    <div class="tab-content">
+      <!-- Skills -->
+      <div class="skills-section">
+        <h2>Skills</h2>
+        <p>Professional Skills: </p>
+        <li>Languages - Java , C</li>
+            <li>Operating Systems - Windows , Linux</li>
+            <li>MySQl</li>
+        <p>Soft Skills: </p>
+        <li>Communication</li>
+        <li>Teamwork</li>
+        <li>Problem-solving</li>
+      </div>
+      
+      <!-- Achievements -->
+      <div class="achievements-section">
+        <h2>Achievements</h2>
+        <ul>
+            <li>Completed 1st year Trinity certificate in playing Guitar.</li>
+            <li> Secured 29th rank in state Olympiad Competition organized at school.</li>
+        </ul>
+      </div>
+      
+      <!-- Hobbies -->
+      <div class="hobbies-section">
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Playing guitar</li>
+            <li>Photography</li>
+            <li>Hiking</li>
+            <li>Fitness Enthusiast</li>
+        </ul>
+      </div>
+    </div>
+    
+    <!-- Social media handles -->
+    <div class="social-icons">
+      <a href="https://github.com/Saksham-Narang"><img src="github.jpg" alt="Github" class="social-icon"></a>
+      <a href="https://twitter.com/saksham_4842?t=zwGdaf5qqHqxCRLTA2uTcw&s=09"><img src="twitter.jpg" alt="Twitter" class="social-icon"></a>
+      <a href="https://instagram.com/_sakshamnarang._?igshid=ZDc4ODBmNjlmNQ=="><img src="instagram.jpg" alt="Instagram" class="social-icon"></a>
+      <a href="https://www.linkedin.com/in/saksham-narang-165927249"><img src="linkedin.jpg" alt="LinkedIn" class="social-icon"></a>
+    </div>
+    
+    <!-- Contact me tab -->
+    <div class="contact-section">
+      <h2>Contact Me</h2>
+      <form class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="text" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <input type="submit" value="Send Message">
+      </form>
+    </div>
+  </main>
+  
+  <footer>
+    &copy; 2023 Personal Portfolio. All rights reserved.
+  </footer>
+</body>
+</html>
